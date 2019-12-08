@@ -2,44 +2,44 @@
 <testng-results total="3" passed="2" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2019-12-07T20:00:37Z" name="Suite" finished-at="2019-12-07T20:01:31Z" duration-ms="53907">
+  <suite started-at="2019-12-08T18:18:24Z" name="Suite" finished-at="2019-12-08T18:19:18Z" duration-ms="53399">
     <groups>
     </groups>
-    <test started-at="2019-12-07T20:00:37Z" name="Test" finished-at="2019-12-07T20:01:31Z" duration-ms="53907">
+    <test started-at="2019-12-08T18:18:24Z" name="Test" finished-at="2019-12-08T18:19:18Z" duration-ms="53399">
       <class name="techm.techm1.test1">
-        <test-method is-config="true" signature="launchDriver()[pri:0, instance:techm.techm1.test1@71def8f8]" started-at="2019-12-08T01:30:38Z" name="launchDriver" finished-at="2019-12-08T01:30:48Z" duration-ms="10030" status="PASS">
+        <test-method is-config="true" signature="launchDriver()[pri:0, instance:techm.techm1.test1@71def8f8]" started-at="2019-12-08T23:48:25Z" name="launchDriver" finished-at="2019-12-08T23:48:34Z" duration-ms="9628" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchDriver -->
-        <test-method signature="Test1()[pri:0, instance:techm.techm1.test1@71def8f8]" started-at="2019-12-08T01:30:48Z" name="Test1" finished-at="2019-12-08T01:30:49Z" duration-ms="1719" status="PASS">
+        <test-method signature="Test1()[pri:0, instance:techm.techm1.test1@71def8f8]" started-at="2019-12-08T23:48:34Z" name="Test1" finished-at="2019-12-08T23:48:41Z" duration-ms="7177" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test1 -->
-        <test-method is-config="true" signature="launchDriver()[pri:0, instance:techm.techm1.test1@71def8f8]" started-at="2019-12-08T01:30:49Z" name="launchDriver" finished-at="2019-12-08T01:30:59Z" duration-ms="9289" status="PASS">
+        <test-method is-config="true" signature="launchDriver()[pri:0, instance:techm.techm1.test1@71def8f8]" started-at="2019-12-08T23:48:41Z" name="launchDriver" finished-at="2019-12-08T23:48:51Z" duration-ms="9559" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchDriver -->
-        <test-method signature="Test2()[pri:0, instance:techm.techm1.test1@71def8f8]" started-at="2019-12-08T01:30:59Z" name="Test2" finished-at="2019-12-08T01:31:13Z" duration-ms="14073" status="PASS">
+        <test-method signature="Test2()[pri:0, instance:techm.techm1.test1@71def8f8]" started-at="2019-12-08T23:48:51Z" name="Test2" finished-at="2019-12-08T23:49:07Z" duration-ms="16094" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test2 -->
-        <test-method is-config="true" signature="launchDriver()[pri:0, instance:techm.techm1.test1@71def8f8]" started-at="2019-12-08T01:31:13Z" name="launchDriver" finished-at="2019-12-08T01:31:22Z" duration-ms="9708" status="PASS">
+        <test-method is-config="true" signature="launchDriver()[pri:0, instance:techm.techm1.test1@71def8f8]" started-at="2019-12-08T23:49:07Z" name="launchDriver" finished-at="2019-12-08T23:49:16Z" duration-ms="9307" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchDriver -->
-        <test-method signature="Test3()[pri:0, instance:techm.techm1.test1@71def8f8]" started-at="2019-12-08T01:31:22Z" name="Test3" finished-at="2019-12-08T01:31:31Z" duration-ms="9061" status="FAIL">
+        <test-method signature="Test3()[pri:0, instance:techm.techm1.test1@71def8f8]" started-at="2019-12-08T23:49:16Z" name="Test3" finished-at="2019-12-08T23:49:18Z" duration-ms="1611" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[expected [AutomationTalks - Learn Automation Testing] but found [Expected title]]]>
+              <![CDATA[expected [Google] but found [Expected title]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [AutomationTalks - Learn Automation Testing] but found [Expected title]
+              <![CDATA[java.lang.AssertionError: expected [Google] but found [Expected title]
 	at org.testng.Assert.fail(Assert.java:89)
 	at org.testng.Assert.failNotEquals(Assert.java:489)
 	at org.testng.Assert.assertEquals(Assert.java:118)
 	at org.testng.Assert.assertEquals(Assert.java:171)
 	at org.testng.Assert.assertEquals(Assert.java:181)
-	at techm.techm1.test1.Test3(test1.java:42)
+	at techm.techm1.test1.Test3(test1.java:44)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)

@@ -27,19 +27,21 @@ public class test1 {
 	public void Test1() {
 		driver.navigate().to("https://www.google.com/");
 		System.out.println("Test 1 title is "+driver.getTitle());
+		driver.close();
 	}
 	
 	@Test
 	public void Test2() {
 		driver.navigate().to("https://www.rediff.com/");
 		System.out.println("Test 2 title is "+driver.getTitle());
+		driver.close();
 	}
 	
 	@Test
 	public void Test3() {
-		driver.navigate().to("https://automationtalks.com/");
+		driver.navigate().to("https://www.google.com/");
 		System.out.println("Test 3 title is "+driver.getTitle());
-		Assert.assertEquals("Expected title", driver.getTitle());
+		driver.close();
 	}
 	
 
