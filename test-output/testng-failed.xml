@@ -6,6 +6,8 @@
       <class name="techm.techm1.test1">
         <methods>
           <include name="launchDriver"/>
+          <include name="Test1"/>
+          <include name="Test2"/>
           <include name="Test3"/>
         </methods>
       </class> <!-- techm.techm1.test1 -->

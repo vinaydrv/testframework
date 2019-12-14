@@ -1,35 +1,24 @@
 package techm.techm1;
 
-import java.net.MalformedURLException;
 import java.util.concurrent.TimeUnit;
-import java.net.URL;
 
-import org.openqa.selenium.Platform;
-import org.openqa.selenium.UnexpectedAlertBehaviour;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
-import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
-import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-public class test1 {
+public class test2 {
 	
 	public static WebDriver driver;
 	
-	
+
 	@BeforeMethod
-	public void launchDriver() throws MalformedURLException {
+	public void launchDriver()  {
 		
-		ChromeOptions cap = new ChromeOptions(); 
-		cap.setCapability(CapabilityType.UNEXPECTED_ALERT_BEHAVIOUR,UnexpectedAlertBehaviour.IGNORE);
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Aarav\\Desktop\\doc\\chromedriver_win32\\chromedriver.exe");
-		
-		driver = new RemoteWebDriver(new URL("http://localhost:5566/wd/hub"), cap);
-		
+		driver = new  ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.manage().window().fullscreen();
 	}
